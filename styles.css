@@ -37,9 +37,8 @@ h1 {
     background-color: #dce2e6;
     border-radius: 1rem;
     padding: 2rem 4rem;
-    box-shadow: 3px 3px 10px #c9cbd1;
+    box-shadow: 0 4px 8px 0 rgba(63, 58, 58, 0.2);
 }
-
 
 #headshot {
     width: 170px;
@@ -67,8 +66,19 @@ p {
 
 #arrow-right {
     width: 50px;
+    cursor: pointer;
+    transform: ;
+}
+
+#arrow-right:hover {
+    transform: scale(1.2);
 }
 
 #arrow-left {
     width: 50px;
+    cursor: pointer;
+}
+
+#arrow-left:hover {
+    transform: scale(1.2);
 }
